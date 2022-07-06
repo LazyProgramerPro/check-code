@@ -1,0 +1,38 @@
+@import './core.scss';
+@import './pageNotFound.scss';
+@import './components/index.scss';
+@import './layouts/DashBoard.scss';
+@import './layouts/GuestLayout.scss';
+@import './page/index.scss';
+// @import './slick.scss';
+
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.date-no-required {
+  margin-right: 12px;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  // border-color: #d9d9d9 !important;
+  border-radius: 5px;
+  &:focus {
+    border: none;
+  }
+}

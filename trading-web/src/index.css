@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'BinancePlex';
+  src: url('app/assets/fonts/BinancePlex-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'BinancePlex';
+  src: url('app/assets/fonts/BinancePlex-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'BinancePlex';
+  src: url('app/assets/fonts/BinancePlex-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-display: fallback;
+}
+body {
+  font-family: BinancePlex, sans-serif;
+  font-size: 14px;
+}
+
+body.modal-open,
+body.ant-scrolling-effect {
+  padding-right: 0 !important;
+  overflow: auto !important;
+  width: 100% !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+/* @media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1500px;
+  }
+} */

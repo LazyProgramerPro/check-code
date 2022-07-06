@@ -1,0 +1,50 @@
+@import '../../../../assets/scss/core/variables/vms-variable';
+
+.login {
+    padding-top: 100px;
+    padding-bottom: calc(100vh - 605px);
+    background-color: #f8f8f8;
+    .h-w{
+        height: 100%;
+        width: 100%;
+        padding: 0 !important;
+        .loginImg {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .loginTitle {
+            font-size: 30px;
+            color: white;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+        }
+    }
+    .login-tabs-container {
+        .card-body{
+            input {
+                height: 3.2rem;
+                font-size: 1.4rem;
+                &::placeholder {
+                    font-size: 1.4rem;
+        
+                }
+            }
+            label {
+                font-size: 1.1rem ;
+            }
+            .form-control-position {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                margin-top: -1px;
+            }
+        }
+    }
+    .bg-color {
+        background-color: rgb(16, 22, 58) !important;
+    }
+}

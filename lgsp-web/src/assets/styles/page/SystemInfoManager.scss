@@ -1,0 +1,15 @@
+.system-info-manager-container {
+    .infor-introduce {
+        padding: 30px 0px;
+        .base-action {
+            display: flex;
+            align-items: center;
+            .action-item:hover svg{
+                color: #40a9ff;
+            }
+            .delete-infor {
+                margin: 0 15px;
+            }
+        }
+    }
+}

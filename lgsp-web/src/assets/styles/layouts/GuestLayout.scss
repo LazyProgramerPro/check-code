@@ -1,0 +1,19 @@
+.guest-layout-wrapper {
+    .header-page {
+        border-bottom: 1px solid #e3d3d37a;
+        .header--right li {
+            margin-right: 5px;
+          }
+    }   
+    .container-page {
+        background: #f3ededd1;
+    }
+    .main-content {
+        //background: #F9F9F9;
+        background: white;
+    }
+    .homepage-footer {
+        padding: 15px;
+        background-color: white;
+    }
+}

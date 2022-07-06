@@ -1,0 +1,109 @@
+@import "../../../../assets/scss/core/variables/vms-variable";
+@import "../../../../assets//scss/core//mixins/vms-mixins";
+
+.table-chart {
+  .table-report {
+    .ant-table .ant-table-container .ant-table-tbody .ant-table-row:hover td {
+      background: #333333 !important;
+    }
+    .ant-table-expanded-row-fixed {
+      background-color: #333333;
+    }
+    .ant-empty-normal {
+      color: white;
+    }
+  }
+  background-color: $vms-bg-sub;
+  padding: 25px;
+  width: 100%;
+  &__title {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+  }
+  .export {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .ant-table {
+    background-color: $vms-bg-sub;
+    border: 1px solid white;
+    // border: 1px solid rgba(234, 240, 247, 0.1);
+
+    .ant-table-body {
+      @include scrollbar-styling(15px, 15px);
+      background: $vms-black;
+    }
+
+    .ant-table-title {
+      padding: 13px 16px;
+      h4 {
+        margin-bottom: 0;
+        font-size: 1.6rem;
+      }
+    }
+    .roleRow {
+      height: 50px !important;
+    }
+
+    .ant-table-thead {
+      .ant-table-cell {
+        background-color: #333333;
+        padding: 13px 0 11px 16px;
+        color: $vms-soft-statuts;
+        border-top: 1px solid white;
+        border-bottom: 1px solid #7e7e7e;
+        border-right: 1px solid #7e7e7e;
+        // border-top: 1px solid rgba(234, 240, 247, 0.1);
+        // border-bottom: 1px solid rgba(234, 240, 247, 0.1);
+        font-weight: 600;
+      }
+    }
+
+    .ant-table-tbody {
+      .ant-table-cell {
+        background-color: #333333;
+        padding: 13px 0 11px 16px;
+        color: $vms-soft-statuts;
+        border-right: 1px solid #7e7e7e;
+        border-bottom: 1px solid #7e7e7e;
+        // border-top: 1px solid rgba(234, 240, 247, 0.1);
+        // border-bottom: 1px solid rgba(234, 240, 247, 0.1);
+      }
+
+      .ant-table-cell:last-child {
+        text-align: left;
+        height: 50px;
+        padding: 0 16px;
+        span {
+          svg {
+            font-size: 2rem;
+
+            color: $vms-soft-statuts;
+            margin: 4px;
+            &:hover {
+              color: $vms-main-blue-primary;
+            }
+          }
+        }
+      }
+
+      .ant-table-placeholder {
+        .ant-table-cell {
+          width: 100% !important;
+          height: auto;
+          display: table-cell;
+          color: $vms-status-07;
+        }
+      }
+    }
+    .ant-table-tbody > tr.ant-table-placeholder {
+      height: 50px !important;
+    }
+  }
+}
+
+[dir] .ant-table-cell-scrollbar {
+  box-shadow: none;
+}

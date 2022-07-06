@@ -1,0 +1,33 @@
+.group-api-endpoint-page {
+  .config-endpoint-environment-box {
+    border: 1px solid #f9f9f9;
+    box-shadow: #c9c3c359 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    .top-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .endpoint-btn-box {
+      margin-left: 10%;
+    }
+  }
+
+  .load-balancer-config-box {
+    margin-top: 30px;
+    .content-item {
+      .setting-load-balacer {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  .load-balancer-endpoint-list {
+    border: 1px solid #f9f9f9;
+    box-shadow: #c9c3c359 0px 5px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+}

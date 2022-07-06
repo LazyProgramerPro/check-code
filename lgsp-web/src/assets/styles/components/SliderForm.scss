@@ -1,0 +1,16 @@
+.slider-form {
+    .input-filed {
+        .ant-form-item-control-wrapper {
+            flex-grow: 1;
+            margin-left: 8px;
+        }
+        margin-right: 8px;
+    }
+    .action-form {
+        margin-left: auto;
+    }
+    .action-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

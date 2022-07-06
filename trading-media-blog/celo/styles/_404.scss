@@ -1,0 +1,30 @@
+.notfound-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  &-logo {
+    width: 200px;
+    cursor: pointer;
+  }
+  &-divider {
+    height: 80px;
+    width: 1px;
+    background-color: #1890ff;
+    box-shadow: 1px 0 1px #1890ff;
+    margin: 0 20px;
+    @media screen and (max-width: 1024px) {
+        height: 60px;
+    }
+  }
+  &-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1890ff;
+    @media screen and (max-width: 1024px) {
+        font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import '../variables/variable';
+.sidebar-wrapper {
+  // position: fixed;
+  width: 250px;
+
+  bottom: 0;
+  // top: 64px;
+  padding-top: 10px;
+  // min-height: 100vh;
+  .menu-item {
+    display: flex;
+    align-items: center;
+    & .content {
+      // width: 100%;
+      // display: inline-block;
+      // white-space: break-spaces;
+      // line-height: 20px;
+
+      width: 100%;
+      height: 40px;
+      white-space: break-spaces;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .ant-menu-submenu {
+    .ant-menu-submenu-title {
+      display: flex;
+      align-items: center;
+      & > span {
+        display: flex;
+        align-items: center;
+        & .content {
+          width: 100%;
+          display: inline-block;
+          white-space: break-spaces;
+          line-height: 20px;
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}
+
+.menu-left::-webkit-scrollbar {
+  width: 2px;
+}
+
+// .ant-menu-submenu > .ant-menu-submenu-title {
+//   left: 0;
+//   padding: 0 35px !important;
+//   text-overflow: clip;
+// }
+// .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+//   padding: 0 35px !important;
+// }

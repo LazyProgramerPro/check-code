@@ -1,0 +1,13 @@
+    .content-box {
+        min-height: 200px;
+        max-height: 300px;
+        border: 1px solid;
+        overflow-y: scroll;
+        width: 100%;
+        }
+    div[contenteditable="true"] {
+        font-family: sans-serif;
+        border: 1px dashed #aaa;
+        padding: 5px;
+      }
+      

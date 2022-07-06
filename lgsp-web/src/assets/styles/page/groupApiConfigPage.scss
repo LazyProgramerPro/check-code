@@ -1,0 +1,148 @@
+.group-api-config-page {
+  .config-group-api-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > div {
+      & > li {
+        border-radius: 0px 0px 8px 8px;
+        padding: 5px 10px;
+        list-style-type: none;
+        border: 1px solid #e0d6d6;
+        border-top: none;
+
+        &.active-config {
+          border-radius: 0px 0px 8px 8px;
+          border: 1px solid #232323;
+          border-top: none;
+        }
+      }
+    }
+  }
+  .config-api-content {
+    .top-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .api-business-plan-content {
+    padding: 20px 40px;
+    .top-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .api-business-plan-policy-content {
+      padding: 20px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.41);
+      border-radius: 5px;
+    }
+  }
+
+  .api-general-information-content {
+    padding: 20px 40px;
+    .top-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .api-general-information-form-div {
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+  .resource-name-tag {
+    justify-content: center;
+    width: 70px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .group-api-detail-page {
+    .steps-contaner {
+      .custom-description {
+        .icon-item {
+          margin-right: 5px;
+        }
+        .active-link {
+          color: #0988be;
+        }
+        .inactive-link {
+          pointer-events: none;
+          color: unset;
+        }
+      }
+    }
+    .overview-container {
+      display: flex;
+      .metadeta-box {
+        flex-grow: 1;
+        .content {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .config-box {
+        .content {
+          display: flex;
+          flex-direction: column;
+        }
+        flex-grow: 1;
+      }
+    }
+
+    .resources-container {
+      width: fit-content;
+      .title-item {
+        margin-bottom: 10px;
+      }
+      .content-item {
+        .resource-item {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          .resource-title {
+            margin-right: 8px;
+          }
+          .method-http {
+            width: 100px;
+            border-radius: 10px;
+          }
+        }
+      }
+      .detail-api {
+        color: #0988be;
+        margin-top: 10px;
+        display: inline-block;
+      }
+    }
+  }
+  //
+  //.group-api-endpoint-page {
+  //    padding: 20px 40px;
+  //    .config-endpoint-environment-box {
+  //        border: 1px solid #f9f9f9;
+  //        padding: 20px;
+  //        box-shadow: #c9c3c359 0px 5px 15px;
+  //    }
+  //    .top-content {
+  //        display: flex;
+  //        align-items: center;
+  //        justify-content: space-between;
+  //    }
+  //    .load-balancer-config-box {
+  //        margin-top: 30px;
+  //        .content-item {
+  //            .setting-load-balacer{
+  //                margin-top: 40px;
+  //            }
+  //        }
+  //    }
+  //}
+  //
+}

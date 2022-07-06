@@ -1,0 +1,35 @@
+.form__title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.icon__close {
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 5px;
+}
+
+.form--item__css {
+    margin: 5px 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.form--item__css > .ant-form-item-label {
+    display: inline-block;
+    width: 150px;
+}
+
+.form--item__css > .ant-form-item-control {
+    display: inline-block;
+    width: calc(100% - 200px)
+}
+
+.disable {
+    visibility: hidden;
+}

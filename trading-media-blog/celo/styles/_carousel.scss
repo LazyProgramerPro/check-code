@@ -1,0 +1,168 @@
+// Đây là con của layout-content
+
+.carousel {
+  width: 100%;
+  min-height: 520px;
+  margin: 50px auto 100px;
+  display: flex;
+  // position: relative để định nghĩa .carousel là bố của .carousel-bg (do .carousel-bg có thuộc tính position: absolute)
+  position: relative;
+  border-radius: 10px;
+  &-bg {
+    border-radius: 10px;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    .custom-image {
+      border-radius: 10px;
+    }
+  }
+  &-left {
+    border-radius: 10px 0 0 10px;
+    flex: 1;
+    background-color: rgba(27, 27, 27, 0.7);
+    //do thư viện có các phần tử có chiều dài rất lớn nên phải overflow: hidden;
+    overflow: hidden;
+    &-swiper {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      @media screen and (max-width: 768px) {
+        height: 300px;
+      }
+      &--image {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      &--title {
+        cursor: pointer;
+        width: 85%;
+        padding: 24px;
+        position: absolute;
+        left: 50%;
+        bottom: 32px;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: linear-gradient(
+          0deg,
+          rgba(86, 86, 86, 0.38),
+          hsla(0, 0%, 75.7%, 0.1)
+        );
+        h4 {
+          color: white;
+          font-size: 32px;
+          line-height: 40px;
+          font-weight: 500;
+          margin-top: 0;
+          //4 dòng dưới là để cắt chuỗi theo dòng và hidden nó đi
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+  &-right {
+    border-radius: 0 10px 10px 0;
+    width: 390px;
+    background-color: rgba(27, 27, 27, 0.7);
+    z-index: 99;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &-item {
+      display: flex;
+      margin-bottom: 32px;
+      &--image {
+        width: 120px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 10px;
+        position: relative;
+      }
+      &--title {
+        flex: 1;
+        margin: 10px 0 10px 24px;
+        color: white;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        &:hover {
+          color: #1890ff;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+    height: auto;
+
+    &-right {
+      width: 100%;
+      &-item {
+        margin-bottom: 30px;
+      }
+      //màu trong suốt
+      background-color: transparent;
+    }
+    &-left {
+      background-color: transparent;
+    }
+    &-bg {
+      display: none;
+    }
+  }
+
+  // Từ đây là sửa css của thư viện (copy trên mạng)
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    // background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    background-color: #eeeeee48;
+    border-radius: 50%;
+    &::after {
+      font-size: 24px;
+      color: #cdcdcd;
+      font-weight: bold;
+    }
+  }
+}

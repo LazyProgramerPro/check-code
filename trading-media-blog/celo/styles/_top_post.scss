@@ -1,0 +1,37 @@
+.new-author {
+  margin-right: 20px;
+}
+
+.top-post-article-form {
+  border-bottom: 1px solid #cecece;
+  .single-new {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    .image {
+      width: 100px;
+      height: 100px;
+    }
+    .info {
+      margin-left: 10px;
+      width: 100%;
+      color: "red";
+      .title {
+        font-size: 14px;
+        margin: 0;
+        text-align: left;
+        color: rgb(134, 21, 21);
+      }
+      .new-sub-info {
+        justify-content: space-between;
+        margin-right: 15px;
+        .author,
+        .time {
+          font-size: 10px;
+          margin: 0;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

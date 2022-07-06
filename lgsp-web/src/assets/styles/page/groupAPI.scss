@@ -1,0 +1,45 @@
+.modal-create-api {
+  .ant-modal-body {
+    padding-bottom: 0;
+    .group-compact-item {
+      .form-item {
+        border-right-width: 0px;
+      }
+    }
+    .input-type-group {
+      margin-left: 35px;
+    }
+  }
+  .modal-footer {
+    display: flex;
+  }
+}
+
+.group-rest-api-page {
+  padding-bottom: 20px;
+  .entryHeader {
+    padding: 20px;
+    border-bottom: 1px solid #a79595;
+  }
+  .serach-table-wrapper {
+    margin-bottom: 20px;
+    margin-top: 14px;
+    padding: 0 16px;
+    .form-serach {
+      width: 100%;
+      .form-serach-row {
+        .ant-form-item {
+          margin: 0;
+        }
+        .form-item {
+          width: 100%;
+        }
+        // display: flex;
+        // align-items: center;
+        .ant-col {
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+}

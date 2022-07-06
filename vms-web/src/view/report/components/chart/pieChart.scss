@@ -1,0 +1,24 @@
+@import "../../../../assets/scss/core/variables/vms-variable";
+@import "../../../../assets//scss/core//mixins/vms-mixins";
+
+.PieChart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+  flex-direction: column;
+  background-color: $vms-bg-sub;
+
+  .Chart__title {
+    padding: 15px 5px;
+    justify-content: space-between;
+    align-items: left;
+    display: flex;
+    width: 100%;
+  }
+  .export {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,71 @@
+.ant-form .ant-form-item-label {
+  // height: 28px;
+}
+.swagger-ui .info {
+  margin: 0px;
+}
+
+.swagger-ui .opblock-summary-control:focus {
+  outline: none;
+}
+
+.swagger-ui select {
+  border: 0.5px solid #959595 !important;
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+  height: 42px !important;
+  // width: 347px !important;
+}
+.ant-avatar {
+  background: transparent;
+  border: 1px solid #000000;
+}
+
+//
+.custom-table-2 {
+  background-color: #fff;
+
+  .ant-table-tbody > tr > td,
+  .ant-table-thead > tr > th {
+    color: #595959;
+  }
+  .ant-table-pagination {
+    width: 100%;
+    text-align: right;
+  }
+  .ant-pagination-total-text {
+    float: left;
+    padding-left: 15px;
+  }
+  .ant-pagination-next {
+    margin-right: 15px;
+  }
+  .ant-table-tbody tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  .action-1 {
+    width: 15px;
+  }
+  .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+    background-color: transparent !important;
+  }
+
+  .ant-table-row-cell-break-word {
+    .anticon svg {
+      margin: 3px;
+    }
+  }
+}
+
+// .ant-form-item {
+//   margin-bottom: 0px;
+// }
+
+.minWidthBtn {
+  width: 100%;
+  min-width: 85px;
+}
+
+.swagger-ui .info .title {
+  font-size: 16px;
+}

@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'rangdong';
+    src: url('fonts/rangdong.eot?yg0of4');
+    src: url('fonts/rangdong.eot?yg0of4#iefix') format('embedded-opentype'),
+    url('fonts/rangdong.ttf?yg0of4') format('truetype'),
+    url('fonts/rangdong.woff?yg0of4') format('woff'),
+    url('fonts/rangdong.svg?yg0of4#rangdong') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.rd-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'rangdong' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 18px;
+    cursor: pointer;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rd-icon-profile:before {
+    content: "\e91a";
+}
+
+.rd-icon-calendar:before {
+    content: "\e900";
+}
+
+.rd-icon-delete-solid .path1:before {
+    content: "\e901";
+    color: rgb(228, 83, 86);
+}
+
+.rd-icon-delete-solid .path2:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.rd-icon-delete:before {
+    content: "\e903";
+    color: #d0021b;
+}
+
+.rd-icon-down:before {
+    content: "\e904";
+    color: #e21e00;
+}
+
+.rd-icon-folder:before {
+    content: "\e905";
+}
+
+.rd-icon-pass .path1:before {
+    content: "\e906";
+    color: rgb(255, 255, 255);
+}
+
+.rd-icon-pass .path2:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-pass .path3:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-pass .path4:before {
+    content: "\e909";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-pass .path5:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-pass .path6:before {
+    content: "\e90b";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-pass .path7:before {
+    content: "\e90c";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-search .path1:before {
+    content: "\e90d";
+    color: rgb(255, 255, 255);
+}
+
+.rd-icon-search .path2:before {
+    content: "\e90e";
+    margin-left: -1em;
+    color: rgb(208, 2, 27);
+}
+
+.rd-icon-sun:before {
+    content: "\e90f";
+    color: #f5a623;
+}
+
+.rd-icon-upload:before {
+    content: "\e910";
+    color: #e21e00;
+}
+
+.rd-icon-checked:before {
+    content: "\e911";
+}
+
+.rd-icon-dropdown:before {
+    content: "\e912";
+    color: #828282;
+}
+
+.rd-icon-edit .path1:before {
+    content: "\e913";
+    color: rgb(255, 255, 255);
+}
+
+.rd-icon-edit .path2:before {
+    content: "\e914";
+    margin-left: -1em;
+    color: rgb(103, 108, 114);
+}
+
+.rd-icon-home:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.rd-icon-night:before {
+    content: "\e916";
+    color: #21017b;
+}
+
+.rd-icon-plus-thin:before {
+    content: "\e917";
+    color: #d0021b;
+}
+
+.rd-icon-plus .path1:before {
+    content: "\e918";
+    color: rgb(36, 135, 194);
+}
+
+.rd-icon-plus .path2:before {
+    content: "\e919";
+    margin-left: -0.94140625em;
+    color: rgb(255, 255, 255);
+}
+
+.image-icon img {
+    width: 18px;
+    margin-right: 10px;
+}

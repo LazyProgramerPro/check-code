@@ -1,0 +1,9 @@
+{ 
+    "locales": ["vn", "en"],
+    "defaultLocale": "vn",
+    "localeDetection": false,
+    "pages": {
+        "*": ["common"],
+        "/about": ["about"]
+    }
+}

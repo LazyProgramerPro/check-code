@@ -1,0 +1,39 @@
+.create-api-form {
+    .radio-wsdl-group {
+        margin: 20px 0;
+       .label {
+        margin-right: 45px;
+       } 
+    }
+    .files-upload {
+        .list-file-upload {
+            margin-top: 5px;
+        }
+    }
+
+    .action-form {
+        margin-left: auto;
+        .btn-create{
+            margin-right:10px;
+        }
+    }
+    
+    .group-compact-item {
+        .context-item {
+            .ant-form-explain {
+                width: 130px;
+            }
+        }
+        .ant-form-item {
+            border-right-width: 0px;
+            &:first-child {
+                margin-right: 85px;
+            }
+        }
+        .context-item {
+            .ant-form-explain {
+                width: 100px;
+            }
+        }
+    }
+}

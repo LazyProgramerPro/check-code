@@ -1,0 +1,31 @@
+.breadcrumb-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 5px;
+    height: 60px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #e0d6d6;
+    .ant-breadcrumb{
+        display: flex;
+        & > span {
+            display: flex;
+        }
+    }
+    .bread-item {
+        &-icon {
+            margin-right: 5px;
+        }
+        display: flex;
+        align-items: center;
+    }
+    .breadcrumb-right {
+        .action {
+            button {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

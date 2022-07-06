@@ -1,0 +1,45 @@
+@mixin tableComon {
+  .ant-table {
+    & * {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: #000000;
+    }
+    border: none;
+    & .ant-table-thead > tr > th {
+      border-bottom: 1px solid #000000 !important;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .ant-table-row {
+    td:last-child {
+      width: 100%;
+      & .ant-select {
+        width: 100%;
+        & .ant-select-selection {
+          display: flex;
+          align-items: center;
+        }
+        & .ant-select-selection__rendered {
+          flex-grow: 1;
+          margin: 0;
+        }
+      }
+    }
+    .ant-select-focused .ant-select-selection,
+    .ant-select-selection:focus,
+    .ant-select-selection:active,
+    .ant-select-selection:hover,
+    .ant-select-selection,
+    .ant-select-open .ant-select-selection {
+      border-color: #d9d9d9 !important;
+      box-shadow: none !important;
+      background-color: inherit;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+//User
+export const LOG_USER = 'LOG_USER';
+export const LOG_USER_SUCCESS = 'LOG_USER_SUCCESS';
+export const LOG_USER_ERROR = 'LOG_USER_ERROR';
+export const RELOAD_LOG_USER = 'RELOAD_LOG_USER';
+
+//data-service
+export const LOG_DATA_SERVICE = 'LOG_DATA_SERVICE';
+export const LOG_DATA_SERVICE_SUCCESS = 'LOG_DATA_SERVICE_SUCCESS';
+export const LOG_DATA_SERVICE_ERROR = 'LOG_DATA_SERVICE_ERROR';
+export const RELOAD_LOG_DATA_SERVICE = 'RELOAD_LOG_DATA_SERVICE';
+
+//API
+export const LOG_API = 'LOG_API';
+export const LOG_API_SUCCESS = 'LOG_API_SUCCESS';
+export const LOG_API_ERROR = 'LOG_API_ERROR';
+export const RELOAD_LOG_API = 'RELOAD_LOG_API';
+
+//data-service
+export const LOG_DATA = 'LOG_DATA';
+export const LOG_DATA_SUCCESS = 'LOG_DATA_SUCCESS';
+export const LOG_DATA_ERROR = 'LOG_DATA_ERROR';
+export const RELOAD_LOG_DATA = 'RELOAD_LOG_DATA';
+
+//connection
+export const LOG_CONNECTION = 'LOG_CONNECTION';
+export const LOG_CONNECTION_SUCCESS = 'LOG_CONNECTION_SUCCESS';
+export const LOG_CONNECTION_ERROR = 'LOG_CONNECTION_ERROR';
+export const RELOAD_LOG_CONNECTION = 'RELOAD_LOG_CONNECTION';
+
+//ACCOUNT
+export const GET_ACCOUNT = 'GET_ACCOUNT';
+export const GET_ACCOUNT_SUCCESS = 'GET_ACCOUNT_SUCCESS';
+export const GET_ACCOUNT_ERROR = 'GET_ACCOUNT_ERROR';
+export const RELOAD_DATA_ACCOUNT = 'RELOAD_DATA_ACCOUNT';
+
+//ID
+export const GET_ID = 'GET_ID';
+export const GET_ID_SUCCESS = 'GET_ID_SUCCESS';
+export const GET_ID_ERROR = 'GET_ID_ERROR';
+export const RELOAD_DATA_ID = 'RELOAD_DATA_ID';
